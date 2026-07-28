@@ -1,0 +1,42 @@
+---
+# Ce front-matter vide est OBLIGATOIRE pour que Jekyll compile ce fichier.
+---
+
+@import "{{ site.theme }}";
+
+/* Theme World of Mina : bandeau violet/rose */
+.page-header {
+  background-color: #6d4a9e;
+  background-image: linear-gradient(120deg, #b06ab3 0%, #6d4a9e 55%, #3a2e6e 100%);
+}
+
+.project-name {
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+.btn {
+  border-color: rgba(255, 255, 255, 0.5);
+  border-radius: 999px;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Accents dans le contenu */
+.main-content h2 {
+  color: #6d4a9e;
+  border-bottom: 2px solid #f0e6ff;
+  padding-bottom: 0.3em;
+}
+
+.main-content a {
+  color: #a34bce;
+}
+
+.main-content code {
+  background-color: #f6f0ff;
+  color: #6d4a9e;
+}

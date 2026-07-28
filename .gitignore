@@ -1,0 +1,19 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Exports
+*.exe
+*.pck
+*.zip
+export_presets.cfg
+
+# Jekyll / GitHub Pages (build local)
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+*.tmp
